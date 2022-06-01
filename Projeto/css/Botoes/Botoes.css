@@ -1,0 +1,7 @@
+.botoes {
+    align-items: center;
+    background-color: #fdfdfd;
+    display: flex;
+    height: 100px;
+    justify-content: center;    
+}

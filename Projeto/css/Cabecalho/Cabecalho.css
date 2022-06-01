@@ -1,0 +1,9 @@
+.cabecalho{
+    align-items: center;
+    background-image: url(../../images/bg-header-desktop.png);
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: flex-end;
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.conteudo2__imagem{
+    width: 60%;
+    height: 100%;
+    background-image: url(../../images/image-computer.png);
+    color: red;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position-x: -40px;
+}

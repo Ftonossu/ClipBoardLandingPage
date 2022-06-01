@@ -1,0 +1,13 @@
+.botoes_mac{
+    background-color: rgb(93, 63, 211, 0.8);
+    border: 0px solid rgb(93, 63, 211);
+    border-radius: 20px;
+    height: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    width: 150px;
+}
+.botoes_mac:hover{
+    background-color: rgb(93, 63, 211);
+    transition: 1s;
+}
