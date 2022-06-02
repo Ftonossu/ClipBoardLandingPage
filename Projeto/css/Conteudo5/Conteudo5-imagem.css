@@ -1,0 +1,30 @@
+.conteudo5__imagem {
+    height: 60px;
+    margin-left: 35px;
+    width: 80%;
+}
+.conteudo5__imagem--icone1 {
+    background-image: url(../../images/logo-google.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.conteudo5__imagem--icone2 {
+    background-image: url(../../images/logo-ibm.png); 
+    background-repeat: no-repeat;
+    background-size: auto; 
+}
+.conteudo5__imagem--icone3 {
+    background-image: url(../../images/logo-microsoft.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.conteudo5__imagem--icone4 {
+    background-image: url(../../images/logo-hp.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.conteudo5__imagem--icone5 {
+    background-image: url(../../images/logo-vector-graphics.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}

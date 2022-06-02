@@ -6,8 +6,10 @@
     margin-right: 10px;
     text-decoration: none;
     width: 150px;
+    
 }
 .botoes__ios:hover{
+    cursor: pointer;
     background-color: rgb(51,255,186);
     transition: 1s;
 }

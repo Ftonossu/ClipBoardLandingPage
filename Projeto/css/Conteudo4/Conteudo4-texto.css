@@ -1,11 +1,8 @@
-.conteudo2__texto{
+.conteudo4__texto {
     color: hsl(201, 11%, 66%);
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     padding-bottom: 1.5rem;
-    padding-bottom: 50px;
-    padding-right: 120px;
-    padding-left: 30px;
-    text-align: left;
+    text-align: center;
 }

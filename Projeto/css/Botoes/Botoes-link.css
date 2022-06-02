@@ -1,6 +1,8 @@
 .botoes__link{
-    color: #fdfdfd;
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
+}
+.botoes__texto {
+    color: #fdfdfd;
 }

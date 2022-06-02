@@ -1,0 +1,7 @@
+.contato__lista{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}

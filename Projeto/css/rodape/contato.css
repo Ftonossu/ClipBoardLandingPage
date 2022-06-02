@@ -1,7 +1,6 @@
-.conteudo2__textos {
+.contato {
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: center;
-    width: 35%;
+    width: 60%;
 }

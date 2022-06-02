@@ -8,6 +8,7 @@
     width: 150px;
 }
 .botoes_mac:hover{
+    cursor: pointer;
     background-color: rgb(93, 63, 211);
     transition: 1s;
 }

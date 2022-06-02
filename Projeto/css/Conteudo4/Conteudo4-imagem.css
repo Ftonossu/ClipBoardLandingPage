@@ -1,0 +1,23 @@
+.conteudo4__imagem {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 55px;
+}
+.conteudo4__imagem--icone1 {
+    background-image: url(../../images/icon-blacklist.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.conteudo4__imagem--icone2 {
+    background-image: url(../../images/icon-text.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.conteudo4__imagem--icone3 {
+    background-image: url(../../images/icon-preview.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
