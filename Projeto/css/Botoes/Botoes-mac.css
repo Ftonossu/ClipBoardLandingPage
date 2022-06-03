@@ -1,4 +1,4 @@
-.botoes_mac{
+.botoes__mac{
     background-color: rgb(93, 63, 211, 0.8);
     border: 0px solid rgb(93, 63, 211);
     border-radius: 20px;
@@ -6,19 +6,20 @@
     text-decoration: none;
     width: 150px;
 }
-.botoes_mac:hover{
+.botoes__mac:hover{
     cursor: pointer;
     background-color: rgb(93, 63, 211);
     transition: 1s;
 }
 @media screen and (min-width: 0) {
     .botoes__mac {
-        margin-left: 0;
+        margin-left: 0px;
         margin-top: 10px;
     }
 }
 @media screen and (min-width: 768px) {
     .botoes__mac {
         margin-left: 10px;
+        margin-top: 0px;
     }
 }
