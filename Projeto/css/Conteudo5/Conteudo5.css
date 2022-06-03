@@ -1,5 +1,25 @@
 .conteudo5 {
     display: flex;
-    height: 200px;
-    justify-content: space-between;
+
+}
+@media screen and (min-width: 0) {
+    .conteudo5 {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .conteudo5 {
+        flex-direction: row;
+        height: 200px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .conteudo5:first-child{
+        margin-left: 20px;
+    }
+    .conteudo5:last-child{
+        margin-right: 20;
+    }
 }

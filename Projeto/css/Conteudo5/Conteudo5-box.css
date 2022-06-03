@@ -3,5 +3,16 @@
     display: flex;
     justify-content: center;
     width: 20%;
+    background-position: center;
 
+}
+@media screen and (min-width: 0) {
+    .conteudo5__box {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .conteudo5__box {
+        width: 20%;
+    }
 }

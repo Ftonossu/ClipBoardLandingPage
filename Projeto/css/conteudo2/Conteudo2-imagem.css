@@ -1,8 +1,27 @@
 .conteudo2__imagem{
     background-image: url(../../images/image-computer.png);
-    background-position-x: -40px;
     background-repeat: no-repeat;
     background-size:auto;
-    height: 100%;
-    width: 60%;
+}
+@media screen and (min-width: 0) {
+    .conteudo2__imagem {
+        height: 200px;
+        width: 100%;
+        background-size:contain;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 360px) {
+    .conteudo2__imagem {
+        margin-bottom: 20px;
+        height: 400px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .conteudo2__imagem {
+        background-position-x: -40px;
+        background-size:contain;
+        height: 600px;
+        width: 60%;
+    }
 }

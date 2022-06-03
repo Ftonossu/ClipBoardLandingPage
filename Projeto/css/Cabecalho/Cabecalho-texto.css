@@ -1,10 +1,27 @@
 .cabecalho__texto {
     color: hsl(201, 11%, 66%);
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 1rem;
     font-weight: 600;
     padding-bottom: 1.5rem;
     padding-left: 30%;
     padding-right: 30%;
     text-align: center;
+}
+@media screen and (min-width: 0) {
+    .cabecalho__texto {
+        font-size: 0.4rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 360px) {
+    .cabecalho__texto {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cabecalho__texto {
+        font-size: 1rem;
+        text-align: center;
+    }
 }

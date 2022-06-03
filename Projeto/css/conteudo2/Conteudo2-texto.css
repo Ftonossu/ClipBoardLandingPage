@@ -1,11 +1,29 @@
 .conteudo2__texto{
     color: hsl(201, 11%, 66%);
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 1rem;
     font-weight: 600;
     padding-bottom: 1.5rem;
-    padding-bottom: 50px;
-    padding-right: 120px;
-    padding-left: 30px;
+
     text-align: left;
+}
+@media screen and (min-width: 0) {
+    .conteudo2__texto {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 360px) {
+    .conteudo2__texto {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .conteudo2__texto {
+        font-size: 1rem;
+        padding-bottom: 50px;
+        padding-right: 120px;
+        padding-left: 30px;
+        text-align: left;
+    }
 }

@@ -1,8 +1,23 @@
 .conteudo4__texto {
     color: hsl(201, 11%, 66%);
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 1rem;
+   
     font-weight: 600;
     padding-bottom: 1.5rem;
     text-align: center;
+}
+@media screen and (min-width: 0) {
+    .conteudo4__texto {
+        font-size: 0.6rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .conteudo4__texto {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width: 968px) {
+    .conteudo4__texto {
+        font-size: 1rem;
+    }
 }

@@ -1,8 +1,27 @@
 .conteudo2__titulo {
     color:hsl(210, 10%, 33%);
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 1.8rem;
+    
     font-weight: 600;
-    padding-bottom: 20px;
-    padding-left: 30px;
+
+}
+@media screen and (min-width: 0) {
+    .conteudo2__titulo {
+        font-size: 1.0rem;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 360px) {
+    .conteudo2__titulo {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .conteudo2__titulo {
+        font-size: 1.8rem;
+        padding-left: 30px;
+        text-align: left;
+    }
 }

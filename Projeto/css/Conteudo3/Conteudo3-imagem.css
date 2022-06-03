@@ -1,8 +1,24 @@
 .conteudo3__imagem {
     background-image: url(../../images/image-devices.png);
     background-repeat: no-repeat;
-    background-size:auto;
-    height: 100%;
+    background-size:contain;
+    background-position: center;
+    
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
+}
+@media screen and (min-width: 0) {
+    .conteudo3__imagem {
+        height: 200px;
+    }
+}
+@media screen and (min-width: 360px) {
+    .conteudo3__imagem {
+        height: 350px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .conteudo3__imagem {
+        height: 600px;
+    }
 }
